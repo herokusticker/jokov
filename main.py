@@ -18,7 +18,7 @@ def any_msg(message):
     seven_button = types.InlineKeyboardButton(text="Нижний Новгород", callback_data="seven")
     eight_button= types.InlineKeyboardButton(text="Пермь", callback_data="eight")
     keyboardmain.add(first_button,halffirst_button,second_button,thrird_button,fourth_button,five_button,six_button,seven_button,eight_button)
-    bot.send_message(message.chat.id, "Выберите город:", reply_markup=keyboardmain)
+    bot.send_message(message.chat.id, "Выберите город,или свяжитесь с оператором @nitropropeneadmin", reply_markup=keyboardmain)
 
 @bot.callback_query_handler(func=lambda call:True)
 def callback_inline(call):
