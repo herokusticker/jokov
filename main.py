@@ -1,7 +1,7 @@
 import telebot
 
 from telebot import types
-token = "1486678518:AAH_wUsktSkX4CMVNOd9CRAyMUBVYadAUSw"
+token = "1486678518:AAElP8RshhCHrvTCeswaoRU-SLZKzjmft0c"
 bot = telebot.TeleBot(token)
 # img = open("123.jpg", "rb")
 # bot.send_photo(chat_id=call.message.chat.id, photo=img)
